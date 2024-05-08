@@ -295,7 +295,7 @@ class MazeGame:
                         self.cells[new_pos[0]][new_pos[1]].parent = current_cell
 
                         #### Add the new cell to the priority queue
-                        open_set.put((new_g, new_pos))
+                        open_set.put((self.cells[new_pos[0]][new_pos[1]].f, new_pos))
 
         if open_set.empty() and current_pos != self.goal_pos:
             print("Failure, no path found to ward")
