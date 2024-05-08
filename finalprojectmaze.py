@@ -1,7 +1,6 @@
 #######################################################
-#### Final Project Hospital Floorplan
-#### pathfinding using A*.
-####
+#### Final Project: Robot Nurse in Hospital
+#### Pathfinding using A* and Dijkstra
 #### AI, Spring 2024
 #######################################################
 import tkinter as tk
